@@ -3,9 +3,3 @@ server:
 spring:
   application:
     name: service-a
-eureka:
-  client:
-    service-url:
-      defaultZone: http://192.168.56.1:8761/eureka
-    register-with-eureka: true
-    fetch-registry: true
